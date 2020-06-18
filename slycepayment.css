@@ -26,7 +26,7 @@ display:none;
 #app-header, /* main header */
 .app-header-secondary, /* onetime, cardvault icon panel */
 .card-info-group-remember, /* remember card feature */
-.app-history .app-history-button-container, /* history payment panel */
+.app-history .app-history-button-container { display:none; }, /* history payment panel */
 .app-onetime .removeSerialDevie /* somekind of button beside the card number */
 { 
     display:none; 
