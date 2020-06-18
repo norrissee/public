@@ -1,0 +1,36 @@
+#main-wrapper
+{
+overflow:hidden;
+}
+
+#slice-hide-button {
+ display:none;
+}
+
+.slice-container .slice-hide-button
+{
+ display:none;
+}
+
+#payplan-create-check{
+ display:none;
+}
+
+.history-list-container .app-refund {
+display:none;
+}
+#cardIcons { display: inline-block !important; }
+.divider { display:none; }
+.receipt-print { display: none; }
+.receipt-print.form-group.pull-left { display:block; }
+#app-header, /* main header */
+.app-header-secondary, /* onetime, cardvault icon panel */
+.card-info-group-remember, /* remember card feature */
+.app-history .app-history-button-container, /* history payment panel */
+.app-onetime .removeSerialDevie /* somekind of button beside the card number */
+{ 
+    display:none; 
+}
+#app-body { background-color: #fff;}
+#slice-container { box-shadow: none; overflow:unset;}
+
