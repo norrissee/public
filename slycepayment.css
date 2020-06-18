@@ -23,11 +23,12 @@ display:none;
 .divider { display:none; }
 .receipt-print { display: none; }
 .receipt-print.form-group.pull-left { display:block; }
-#app-header, /* main header */
+#app-header { display: none; }, /* main header */
 .app-header-secondary, /* onetime, cardvault icon panel */
 .card-info-group-remember, /* remember card feature */
-.app-history .app-history-button-container { display:none; }, /* history payment panel */
-.app-onetime .removeSerialDevie /* somekind of button beside the card number */
+.app-history .app-history-button-container, /* history payment panel */
+.app-onetime .removeSerialDevie, /* somekind of button beside the card number */
+.emv-container
 { 
     display:none; 
 }
