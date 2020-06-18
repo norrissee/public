@@ -1,59 +1,62 @@
-#main-wrapper
-{
-overflow:hidden;
+#main-wrapper{
+	overflow:hidden;
 }
-
-
 #slice-hide-button {
- display:none;
+	display:none;
 }
-
-.slice-container .slice-hide-button
-{
- display:none;
+.slice-container .slice-hide-button{
+	display:none;
 }
-
 #payplan-create-check{
- display:none;
+	display:none;
 }
-
 .history-list-container .app-refund {
-display:none;
+	display:none;
 }
-
 #refund-dollar,#refund-amount {
-display:none;
+	display:none;
 }
-
 .card-info-group-CUamount,#cardvault-inputs-amount {
-display:none;
+	display:none;
 }
-
-.input-group-addon  .input-group-addon-safari-fix{
-display:none;
+.input-group-addon .input-group-addon-safari-fix{
+	display:none;
 }
-
 #refund-word .btn-default {
-left:50px;
+	left:50px;
 }
-
-.divider { display:none; }
-.receipt-print { display: none; }
-.receipt-print.form-group.pull-left { display:block; }
-/*.input-group { display:none; }*/
-#cardIcons { display: inline-block !important; }
-
-#refund-word button.btn-default
-{
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px;
-    left: 6px;
+.divider {
+	display:none;
 }
-
+.receipt-print {
+	display: none;
+}
+.receipt-print.form-group.pull-left {
+	display:block;
+}
+/*.input-group {
+	display:none;
+}
+*/
+#cardIcons {
+	display: inline-block !important;
+}
+#refund-word button.btn-default{
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	left: 6px;
+}
 .card-info-group-remember {
-    display: none;
+	display: none;
 }
-
 #slice-container {
-    overflow: unset;
+	overflow: unset;
+}
+#app-header, /* main header */
+.app-header-secondary, /* onetime, cardvault icon panel */
+.card-info-group-remember, /* remember card feature */
+.app-history .app-history-button-container, /* history payment panel */
+.app-onetime .removeSerialDevie, /* somekind of button beside the card number */
+.emv-container{
+	display:none;
 }
